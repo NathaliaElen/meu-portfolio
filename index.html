@@ -8,6 +8,7 @@
     <title>Meu Portfólio</title>
     <link rel="stylesheet" href="style.css">
     <script src="script.js" defer></script>
+    <script src="https://kit.fontawesome.com/9104ac1d53.js" crossorigin="anonymous"></script>
 </head>
 
 <body>
@@ -247,9 +248,59 @@
     <!-- fim seção cursos -->
 
     <!-- seção contatos -->
+    <section class="contatos" id="contatos">
+        <div class="conteudo-contatos">
+            <div class="titulo-contatos">
+                <h2>Contatos</h2>
+            </div>
+
+            <div class="paragrafo-contato">
+                <p>Fale Comigo</p>
+            </div>
+
+            <div class="icone">
+                <h3>Entre em Contato</h3>
+                <p>Entre em contato para alocação:</p>
+
+                <i class="fa-regular fa-user" ></i>
+                <h4>Nome</h4>
+                <p>Nathália Elen</p>
+
+                <i class="fa-solid fa-earth-europe"></i>
+                <h4>Endereço</h4>
+                <p>Abreu e Lima - Pernambuco</p>
+
+                <i class="fa-regular fa-envelope"></i>
+                <h4>E-mail</h4>
+                <p>n.fialho.de.araujo@avanade.com</p>
+            </div>
+
+            <div class="form">
+                <form action="https://formsubmit.co/your@email.com" method="POST">
+                    <input type="text" name="nome" id="nome" placeholder="Digite seu nome">
+                    <input type="text" name="sobrenome" id="sobrenome" placeholder="Sobrenome">
+                    <input type="email" name="email" id="email" placeholder="E-mail">
+                    
+                    <textarea name="mensagem" id="mensagem" cols="30" rows="10" placeholder="Escrever..."></textarea>
+
+                    <button>
+                        <a href="#">
+                            Enviar <i class="fa-regular fa-paper-plane"></i>
+                        </a>
+                    </button>
+
+                    <input type="hidden" name="_captcha" value="false">
+                    <input type="hidden" name="_next" value="">
+                </form>
+            </div>
+        </div>
+    </section>
     <!-- fim contatos -->
 
     <!-- seção rodapé -->
+    <footer>
+        <span>Copyright: &copy; 2022 - by Nathália Elen</span>
+    </footer>
     <!-- fim rodapé -->
 </body>
 
