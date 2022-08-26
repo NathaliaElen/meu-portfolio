@@ -4,9 +4,58 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-    text-decoration: none;
 }
 
 body {
-    font-family: "Roboto", sans-serif;
+    font-family: "Ubuntu", sans-serif;
+    text-decoration: none;
 }
+
+/* seção menu */
+.navbar {
+    display: flex;
+    position: fixed;
+    background-color: #0abab5;
+    width: 100vw;
+    z-index: 999; /* não permite que nada sobreescreva essa div do menu */
+    padding: 30px 0;
+    justify-content: space-between;
+    transition: all 0.3s ease;
+}
+
+.logo {
+
+}
+
+.logo a {
+    text-decoration: none;
+    color: #ffffff;
+}
+
+.logo span {
+
+}
+
+ .menu {
+    display: flex;
+}
+
+.menu li {
+    list-style: none;
+}
+
+.menu li a {
+    text-decoration: none;
+    padding: 10px;
+    color: #ffffff;
+    margin-right: 15px;
+    font-size: 16px;
+    font-weight: 500;
+    transition: color 0.3s ease;
+    cursor: pointer;
+}
+
+.menu li a:hover{
+    color: black;
+}
+/* seção menu */
