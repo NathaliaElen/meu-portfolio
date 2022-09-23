@@ -58,4 +58,62 @@ body {
 .menu li a:hover{
     color: black;
 }
-/* seção menu */
+/* fim da seção menu */
+
+/* seção início */
+.inicio {
+    background: url(./img/Fundo.png);
+    display: flex;
+    background-size: cover;
+    height: 100vh;
+    min-height: 500px;
+}
+
+.largura-maxima {
+    max-width: auto 0 auto 40px;
+}
+
+.conteudo-inicio {
+    z-index: 999;
+    margin: 4rem;
+    color: #ffffff;
+}
+
+.conteudo-inicio .texto1 {
+    font-size: 27px;
+    margin-top: 200px;
+    
+}
+
+.conteudo-inicio .texto2 {
+    font-size: 75px;
+    font-weight: 500;
+
+}
+
+.conteudo-inicio .texto3 {
+    font-size: 27px;
+
+}
+
+.conteudo-inicio .btn {
+    background-color: ;
+    color: #ffffff;
+    font-size: 25px;
+    cursor: pointer;
+    padding: 12px 36px;
+    margin-top: 20px;
+    border: none;
+    border-radius: 8px;
+    outline: none;
+}
+
+.conteudo-inicio .btn a {
+    text-decoration: none;
+}
+
+.conteudo-inicio .btn a:hover {
+    background-color: ;
+    color: ;
+}
+/* fim da seção início */
