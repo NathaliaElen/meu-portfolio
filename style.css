@@ -10,6 +10,12 @@ body {
     font-family: "Ubuntu", sans-serif;
     text-decoration: none;
 }
+/* 
+.largura-maxima {
+    max-width: 1300px;
+    padding: 0 80px;
+    margin: auto;
+} */
 
 /* seção menu */
 .navbar {
@@ -18,18 +24,23 @@ body {
     background-color: #0abab5;
     width: 100vw;
     z-index: 999; /* não permite que nada sobreescreva essa div do menu */
-    padding: 30px 0;
+    padding: 15px 0;
     justify-content: space-between;
     transition: all 0.3s ease;
 }
-
-.logo {
-
-}
+/* 
+.navbar .largura-maxima {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+} */
 
 .logo a {
+    font-size: 35px;
+    font-weight: 500;
     text-decoration: none;
     color: #ffffff;
+    margin-left: 50px;
 }
 
 .logo span {
@@ -38,6 +49,7 @@ body {
 
  .menu {
     display: flex;
+    margin-left: 400px;
 }
 
 .menu li {
@@ -96,24 +108,22 @@ body {
 
 }
 
-.conteudo-inicio .btn {
-    background-color: ;
+.conteudo-inicio a {
+    display: inline-block;
+    background-color: #00ced1;
     color: #ffffff;
     font-size: 25px;
     cursor: pointer;
     padding: 12px 36px;
     margin-top: 20px;
-    border: none;
+    border: 2px solid #00ced1;
     border-radius: 8px;
     outline: none;
-}
-
-.conteudo-inicio .btn a {
     text-decoration: none;
 }
 
-.conteudo-inicio .btn a:hover {
-    background-color: ;
-    color: ;
+.conteudo-inicio a:hover {
+    background: url(./img/Fundo.png);
+    color: #00ced1;
 }
 /* fim da seção início */
