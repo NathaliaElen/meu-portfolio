@@ -4,52 +4,49 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    text-decoration: none;
 }
 
 body {
     font-family: "Ubuntu", sans-serif;
-    text-decoration: none;
 }
-/* 
+
 .largura-maxima {
     max-width: 1300px;
     padding: 0 80px;
     margin: auto;
-} */
+}
 
 /* seção menu */
 .navbar {
-    display: flex;
     position: fixed;
-    background-color: #0abab5;
+    background-color:  #00ced1;
     width: 100vw;
     z-index: 999; /* não permite que nada sobreescreva essa div do menu */
     padding: 15px 0;
-    justify-content: space-between;
     transition: all 0.3s ease;
 }
-/* 
+
 .navbar .largura-maxima {
     display: flex;
     align-items: center;
     justify-content: space-between;
-} */
+}
 
 .logo a {
     font-size: 35px;
     font-weight: 500;
     text-decoration: none;
     color: #ffffff;
-    margin-left: 50px;
 }
 
 .logo span {
-
+    color:  #00ced1;
 }
 
  .menu {
     display: flex;
-    margin-left: 400px;
+    margin-left: 280px;
 }
 
 .menu li {
@@ -62,7 +59,7 @@ body {
     color: #ffffff;
     margin-right: 15px;
     font-size: 16px;
-    font-weight: 500;
+    font-weight: 550;
     transition: color 0.3s ease;
     cursor: pointer;
 }
@@ -74,38 +71,34 @@ body {
 
 /* seção início */
 .inicio {
-    background: url(./img/Fundo.png);
     display: flex;
+    background: url(./img/Fundo.png);
     background-size: cover;
     height: 100vh;
     min-height: 500px;
 }
 
-.largura-maxima {
-    max-width: auto 0 auto 40px;
+.inicio .largura-maxima {
+    margin: auto 0 auto 40px;
 }
 
 .conteudo-inicio {
-    z-index: 999;
-    margin: 4rem;
     color: #ffffff;
 }
 
 .conteudo-inicio .texto1 {
     font-size: 27px;
-    margin-top: 200px;
-    
 }
 
 .conteudo-inicio .texto2 {
     font-size: 75px;
-    font-weight: 500;
-
+    font-weight: 600;
+    margin-right: -3px;
 }
 
 .conteudo-inicio .texto3 {
-    font-size: 27px;
-
+    font-size: 40px;
+    margin: 5px 0;
 }
 
 .conteudo-inicio a {
