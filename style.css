@@ -49,6 +49,10 @@ section {
     padding: 15px 0;
 }
 
+.navbar.sticky .logo a span {
+    color: #fff;
+}
+
 .logo a {
     font-size: 35px;
     font-weight: 500;
@@ -204,6 +208,10 @@ section {
     margin-bottom: 20px;
 }
 
+.sobre .typing-2 {
+    color: #00ced1;
+}
+
 .sobre .coluna-direita .paragrafo-sobre {
     font-size: 16px;
     text-align: justify;
@@ -231,3 +239,46 @@ section {
     background: none;
 }
 /* fim da seção sobre */
+
+/* seção certificações */
+.certificacoes {
+    background-color: #111;
+    color: #fff;
+}
+.certificacoes .titulo-cert {
+    text-align: center;
+    font-size: 20px;
+    font-weight: 500;
+    margin-bottom: 60px;
+    padding-bottom: 20px;
+    position: relative;
+}
+
+/* cria o traço para ficar no meu do conteúdo */
+.certificacoes .titulo-cert::before {
+    content: "";
+    position: absolute;
+    bottom: 0;
+    left: 50%;
+    width: 180px;
+    height: 3px;
+    background-color: #fff;
+    transform: translateX(-50%);
+}
+
+.certificacoes .titulo-cert::after {
+    content: "Conquistas";
+}
+
+/* formata o texto quem sou eu */
+.certificacoes .titulo-cert::after { 
+    position: absolute;
+    bottom: -12px;
+    left: 50%;
+    font-size: 20px;
+    background-color: #111;
+    color: #00ced1;
+    padding: 5px;
+    transform: translateX(-50%);
+}
+/* fim da seção certificações */
