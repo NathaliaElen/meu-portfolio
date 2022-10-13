@@ -283,14 +283,14 @@ section {
     transform: translateX(-50%);
 }
 
-.conteudo-cert {
-    text-align: center;
+.certificacoes .conteudo-cert {
+    justify-content: center;
 }
 
 .certificacoes .conteudo-cert .card {
     width: calc(30% - 35px); 
     background-color: #222;
-    /* text-align: center; */
+    text-align: center;
     border-radius: 6px;
     padding: 30px 35px;
     cursor: pointer;
@@ -308,6 +308,7 @@ section {
     transform: scale(1.05);
 }
 
+/* barra de rolagem nos títulos da certificações */
 .certificacoes .conteudo-cert p {
     font-size: 15px;
     font-weight: 500;
@@ -317,6 +318,7 @@ section {
     height: 50px;
 }
 
+/* faz ficar invísil a barra de rolagem  */
 .certificacoes p::-webkit-scrollbar {
     display: none;
 }
@@ -325,6 +327,45 @@ section {
     width: 150px;
     height: 150px;
 }
-
-
 /* fim da seção certificações */
+
+/* seção especialidades */
+.especialidades .titulo-especialidades {
+    text-align: center;
+    font-size: 20px;
+    font-weight: 500;
+    margin-bottom: 60px;
+    padding-bottom: 20px;
+    position: relative;
+}
+
+.especialidades .titulo-especialidades::before {
+    content: "";
+    position: absolute;
+    bottom: 0;
+    left: 50%;
+    width: 180px;
+    height: 3px;
+    background-color: #111;
+    transform: translateX(-50%);
+}
+
+.especialidades .titulo-especialidades::after {
+    content: "O que faço";
+}
+
+.especialidades .titulo-especialidades::after { 
+    position: absolute;
+    bottom: -12px;
+    left: 50%;
+    font-size: 20px;
+    background-color: #fff;
+    color: #00ced1;
+    padding: 5px;
+    transform: translateX(-50%);
+}
+
+.especialidades .conteudo-especialidades {
+    justify-content: center;
+} 
+/* fim da seção especialidades */
