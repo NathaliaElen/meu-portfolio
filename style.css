@@ -50,7 +50,7 @@ section {
 }
 
 .navbar.sticky .logo a span {
-    color: #fff;
+    color: #111;
 }
 
 .logo a {
@@ -86,6 +86,11 @@ section {
 
 .menu li a:hover{
     color: #00ced1;
+}
+
+
+.sticky .menu li a:hover{
+    color: #111;
 }
 /* fim da seção menu */
 
@@ -365,7 +370,37 @@ section {
     transform: translateX(-50%);
 }
 
-.especialidades .conteudo-especialidades {
-    justify-content: center;
-} 
+.especialidades .conteudo-especialidades .coluna-esquerda {
+    width: 55%;
+}
+
+.especialidades .conteudo-especialidades .coluna-esquerda h3 {
+    font-size: 25px;
+    font-weight: 500;
+}
+
+.especialidades .conteudo-especialidades .coluna-esquerda p {
+    font-size: 15px;
+    text-align: justify;
+    margin-top: 20px;
+}
+
+.especialidades .conteudo-especialidades .coluna-esquerda a {
+    display: inline-block;
+    background-color: #00ced1;
+    color: #ffffff;
+    font-size: 16px;
+    cursor: pointer;
+    padding: 6px 18px;
+    margin-top: 20px;
+    border: 2px solid #00ced1;
+    border-radius: 6px;
+    outline: none;
+    text-decoration: none;
+}
+
+.especialidades .conteudo-especialidades .coluna-esquerda a:hover {
+    color: #00ced1;
+    background-color: #fff;
+}
 /* fim da seção especialidades */
