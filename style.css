@@ -403,4 +403,39 @@ section {
     color: #00ced1;
     background-color: #fff;
 }
+
+.especialidades .conteudo-especialidades .coluna-direita .card {
+    width: calc(30% - 35px); 
+    background-color: #222;
+    text-align: center;
+    border-radius: 6px;
+    padding: 30px 35px;
+    cursor: pointer;
+    transition: all 0.3s ease;
+    margin: 5px;
+}
+
+.especialidades .conteudo-especialidades .coluna-direita .card:hover {
+    background-color: #00ced1;
+    transform: scale(1.05);
+}
+
+.especialidades .conteudo-especialidades .coluna-direita .box {
+    transition: all 0.3s ease;
+    transform: scale(1.05);
+}
+
+.especialidades .conteudo-especialidades .coluna-direita i {
+    font-size: 30px;
+    text-align: center;
+}
+
+.especialidades .conteudo-especialidades .coluna-direita #mostrar {
+    display: none;
+}
+
+.especialidades .conteudo-especialidades .coluna-direita #passar_mouse {
+    color: #fff;
+} 
+
 /* fim da seção especialidades */
